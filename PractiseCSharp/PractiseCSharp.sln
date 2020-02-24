@@ -77,6 +77,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "36CountVowelsAndConsonants"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "37ReplaceSubString", "37ReplaceSubString\37ReplaceSubString.csproj", "{613D3935-8EB7-4423-86E8-8E68FBC18F49}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "38sumOfRightDiagnols", "38sumOfRightDiagnols\38sumOfRightDiagnols.csproj", "{3C3FF716-0B3C-4138-8AB9-632B1F397E61}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -231,6 +233,10 @@ Global
 		{613D3935-8EB7-4423-86E8-8E68FBC18F49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{613D3935-8EB7-4423-86E8-8E68FBC18F49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{613D3935-8EB7-4423-86E8-8E68FBC18F49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C3FF716-0B3C-4138-8AB9-632B1F397E61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C3FF716-0B3C-4138-8AB9-632B1F397E61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C3FF716-0B3C-4138-8AB9-632B1F397E61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C3FF716-0B3C-4138-8AB9-632B1F397E61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
