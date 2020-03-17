@@ -10,33 +10,34 @@ namespace _28Array08
     {
         static void Main(string[] args)
         {
-            int[] number = new int[5];
             int sum = 0;
+            string str;
 
-            for(int i =0; i<number.Length; i++)
+            do
             {
                 Console.WriteLine("Enter a number");
-                string str = Console.ReadLine();
-                
+                 str = Console.ReadLine();
+
                 if (str == "end")
 
                 {
-                    Console.WriteLine(number[i]);
                     Console.WriteLine(sum);
 
                 }
 
                 else
                 {
-                       char[] numbers = str;
-                    
-                        sum += number[i];
 
-                        Console.WriteLine(sum);
-                    
+                    int num = int.Parse(str);
+
+                    sum += num;
+
+                    Console.WriteLine(sum);
+
                 }
-               
-            }
+
+
+            } while (str != "end");
            
         }
     }
